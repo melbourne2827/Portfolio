@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Melbin's Portfolio</title>
+
+  <!--  favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--  custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--  google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+  <!--  #MAIN -->
+  <main>
+
+    <!--  #SIDEBAR  -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/main-pic.jpeg" alt="Melbin John" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Melbin John">Melbin John</h1>
+
+          <p class="title">Software/Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:meljo2827@gmail.com" class="contact-link">meljo2827@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917488812165" class="contact-link">+91 748 881 2165</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-05-30">May 30, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Kerala, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/melbin2827" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/melbourne2827" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/melbourne2827" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+
+    <!--  #main-content -->
+    <div class="main-content">
+
+      <!--  #NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>POR</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+        </ul>
+
+      </nav>
+
+      <!--  #ABOUT -->
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a young Indian software and web developer from Kerala. I'm in my final year
+            at National Institute of Technology, Jamshedpur, where I'm getting a bachelor's
+            degree in technology. I thrive in collaborative settings and enjoy approaching 
+            complex problems with innovative solutions.          
+          </p>
+
+          <p>
+            In addition to coding, I enjoy playing the guitar and am a music enthusiast. 
+            I now have an acute sense of timing and rhythm because to this experience, 
+            which surprisingly transfers well to coding and problem solving!
+          </p>
+        </section>
+  
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education & Certification</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title" id="certificate">
+                <a href="https://www.udemy.com/certificate/UC-e0b7a568-90d1-41b5-b1c4-a6b272329889/" style="color: white; text-decoration: none;">The Web Developer Bootcamp by Colt Steele</a>
+            </h4>
+
+              <span>2024</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Institute of Technology, Jamshedpur</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Computer Science & Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">International Indian School, Dammam (CBSE)</h4>
+
+              <span>2009 — 2020</span>
+
+              <p class="timeline-text">
+                12th Grade (Computer Math)  (92%)
+              </p>
+              <p class="timeline-text">
+                10th Grade                  (90%)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+      <!--  #SKILLS -->
+      <article class="skills" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <!--  service -->
+        <section class="service">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development -C++</h4>
+
+                <p class="service-item-text">
+                  Building strong foundational skills in C++ programming, focusing on 
+                  object-oriented programming principles and data structures.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Skilled in front-end development. Exploring back-end development to create well-rounded web applications.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <h3 class="h3 service-title">Development Toolbox</h3>
+        <div class="skill">
+            <img src="./assets/images/html.png" alt="HTML icon" width="70">
+            <img src="./assets/images/css.png" alt="CSS icon" width="70">
+            <img src="./assets/images/javascript.png" alt="JavaScript icon" width="70">
+            <img src="./assets/images/bootstrap.png" alt="Bootstrap icon" width="70">
+        </div>
+        <div class="skill">
+          <img src="./assets/images/reactjs.png" alt="React.js icon" width="70">
+          <img src="./assets/images/ejs.png" alt="EJS icon" width="80">
+          <img src="./assets/images/nodejs.png" alt="Node.js icon" width="100">
+          <img src="./assets/images/cpp.png" alt="C++ icon" width="60">
+        </div>
+
+        <div class="skill"> 
+          <img src="./assets/images/mongodb.png" alt="MongoDB icon" width="100">
+          <img src="./assets/images/sql.png" alt="SQL icon" width="100">
+        </div>
+
+        <div data-overlay></div>
+        <button class="modal-close-btn" data-modal-close-btn></button>
+
+      </article>
+      
+      
+      <!--  #POR -->
+      <article class="por" data-page="por">
+        <header>
+          <h2 class="h2 article-title">Position of Responsibility</h2>
+        </header>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="accessibility-outline"></ion-icon>
+            </div>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instrumental Head  |  Team Rooh  (Musical Society of NIT Jamshedpur)</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li class="timeline-text">
+                    • Modeled, organized and realized a new event called "Believe"
+                    - a Rap/Beatboxing battle, contributing to a cash prize
+                    pool of up to 15k for the top three artists
+                  </li>
+                  <li class="timeline-text">
+                    • Enhanced club reputation, attracting approximately 35% of the 
+                    freshers to participate in the club induction process
+                  </li>
+                  <li class="timeline-text">
+                    • Expanded musical proficiency by learning multiple instruments including 
+                    Bass Guitar, Drums, and basic skills on Keys
+                  </li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Event Head  |  Battle of Bands, Main Event @ CULFEST '23</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li class="timeline-text">
+                    • Orchestrated the event, facilitating a prize pool of around 30k for participating
+                    bands, motivating high competition
+                  </li>
+                  <li class="timeline-text">
+                    • Managed all aspects of event logistics, including stage setup, microphone and sound system 
+                    arrangements, and coordination of judges, ensuring a professional and engaging atmosphere
+                  </li>
+                  <li class="timeline-text">
+                    • Collaborated with a team of 10 juniors, delegating tasks effectively to ensure smooth operations
+                  </li>
+                </ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!-- #PROJECTS-->
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/melbourne2827/Budgtr">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/budgtr.png" alt="budgtr" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Budgtr</h3>
+
+                <p class="project-category">A budget Tracking Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mess.png" alt="budgtr" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">(Upcoming) Mess Manager</h3>
+
+                <p class="project-category">Mess management Website</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      
+
+  <!--  custom js link  -->
+  <script src="./assets/js/script.js"></script>
+  <!--  ionicon link  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
